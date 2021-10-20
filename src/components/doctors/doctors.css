@@ -1,0 +1,75 @@
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 0vmin 22vmin;
+    width: 100%;
+}
+
+.section-4 .card {
+    width: 22em;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-4 .card-body>a {
+    font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+@media only screen and (max-width:1440px) {
+    .section-4 .row .col-12 .card {
+        width: 340px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .section-4 .row .col-12 .card {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .section-4 .row .card .card-body .card-title {
+        font-size: 25px;
+    }
+
+    .section-4 .row .card .card-body .card-text {
+        font-size: 13px;
+        padding: 0em;
+    }
+
+    .section-4 .card {
+        margin-top: -10px;
+    }
+
+    .section-4 .container h1 {
+        font-size: 4vmin;
+        padding-top: 10vmin;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .section-4 .card {
+        width: 18em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .section-4 .carousel-inner {
+        margin-left: -4vmin;
+    }
+}

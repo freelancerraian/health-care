@@ -1,0 +1,43 @@
+.cus-icon{
+    align-items: baseline;
+    cursor: pointer;
+}
+.footer{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 2%;
+}
+.cus-icon p{
+    padding-left: 8px;
+}
+.cus-icon:hover {
+    color: red;
+}
+.telegram{
+    font-size: 2rem;
+    cursor: pointer;
+}
+hr{
+    width: 70%;
+}
+.icons{
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.icons i:hover{
+    cursor: pointer;
+}
+.about-box span{
+    padding-left: 20px;
+    cursor: pointer;
+}
+.right p:hover{
+    color: red;
+    cursor: context-menu;
+}
+.right{
+    display: flex;
+    justify-content: center;
+}

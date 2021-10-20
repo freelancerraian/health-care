@@ -1,0 +1,28 @@
+.home{
+    background:linear-gradient(#00000094, #00000094), url(../../img/bg.jpg) no-repeat;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+.text{
+    text-align: center;
+    width: 45%;
+    padding-top: 10%;
+    line-height: 40px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+.text p{
+    font-weight: 600;
+}
+.sec-hr{
+    width: 100%;
+}
