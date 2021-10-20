@@ -3,6 +3,7 @@ import './home.css';
 import { NavLink } from "react-router-dom";
 import Services from '../services/services';
 import Doctors from '../doctors/doctors';
+import Wellcome from '../wellcome/wellcome';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <Wellcome></Wellcome>
         <div className="container">
           <Services></Services>
           <hr className="sec-hr" />

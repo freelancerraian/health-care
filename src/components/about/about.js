@@ -9,8 +9,8 @@ const About = () => {
           <div class="content text-center">
             <h1>Something That Made Us Unique</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Similique, sunt.
+              Physical Characteristics. Every individual is not physically
+              created the same.
             </p>
           </div>
         </div>
