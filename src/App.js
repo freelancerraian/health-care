@@ -12,7 +12,6 @@ import Login from './components/login/login';
 import AuthProvider from './context/AuthProvider';
 import PrivetRoute from './components/PrivetRoute/privetRoute';
 import Dispatch from './components/dispatch/dispatch';
-// import Dispatch from "./components/dispatch/dispatch";
 
 function App() {
 
